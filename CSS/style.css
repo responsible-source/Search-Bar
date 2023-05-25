@@ -109,3 +109,15 @@ body{
 .content .options li:hover{
   background: #f2f2f2;
 }
+
+
+@media(max-width:1024px) {
+html{
+  overflow-x: hidden;
+}
+  .wrapper{
+    width: 370px;
+    margin: 200px auto 0;
+  }
+}
+
